@@ -7,5 +7,5 @@ function printAsyncName(name, callbackFunction) {
   }, 1000);
 }
 
-callback = () => console.log("hello");
+const callback = () => console.log("hello");
 printAsyncName("Arya", callback());
